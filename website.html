@@ -1,20 +1,37 @@
-<title>HTML css</title>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML css</title>
 
-<style>
-    button {
-        color: white;
-        border: none;
-        padding: 8px 5px;
-    }
+        <style>
+            button {
+                color: white;
+                border: none;
+                padding: 8px 5px;
+            }
 
-    .click {
-        background-color: green;
-    }
+            .click {
+                background-color: green;
+            }
 
-    .dont {
-        background-color: red;
-    }
-</style>
+            .dont {
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <button class="dont" onclick="alert('I told you not to dare!')">
+            Dont-click me!
+        </button>
+        <button class="click">
+            Click me!
+        </button>
 
-<button class="click">Dont-click me!</button>
-<button class="dont">Click me!</button>
+        <script>
+            // alert('Hello world! FUKC YOU!')
+        </script>
+    </body>
+</html>
